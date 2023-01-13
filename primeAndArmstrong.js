@@ -1,4 +1,4 @@
-function prime (num) {
+function isprime (num) {
     let isPrime = true
 
     if (num === 1) {
@@ -7,7 +7,7 @@ function prime (num) {
     
     else if (num > 1) {
     
-        for (let i = 2; i < num; i++) {
+        for (let i = 2; i < Math.sqrt(num); i++) {
             if (num % i == 0) {
                 isPrime = false
                 break
@@ -27,7 +27,7 @@ function prime (num) {
 }
 
 
-function armstrong(num) {
+function isArmstrong(num) {
     let n = num;
     let number = 0;
 
@@ -52,3 +52,7 @@ function armstrong(num) {
 
 
 }
+
+console.log(isArmstrong(153));
+console.log(isPrmime(17));
+
