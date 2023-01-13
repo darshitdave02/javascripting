@@ -1,4 +1,4 @@
-function isprime (num) {
+ const isPrime =  (num) => {
     let isPrime = true
 
     if (num === 1) {
@@ -27,7 +27,7 @@ function isprime (num) {
 }
 
 
-function isArmstrong(num) {
+const isArmstrong = (num) => {
     let n = num;
     let number = 0;
 
